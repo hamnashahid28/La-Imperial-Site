@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop Appliances - La Imperial Products | Refrigerators, AC, TV, Washing Machines</title>
+  <meta name="description" content="Browse all La Imperial products with smart filters by brand and category. Compare refrigerators, inverter ACs, washing machines, TVs, and kitchen appliances in Pakistan." />
+  <meta name="keywords" content="appliances products Pakistan, compare home appliances, refrigerator price Pakistan, AC price Pakistan, washing machine online, TV deals Pakistan" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="La Imperial Products - Buy Home Appliances Online" />
+  <meta property="og:description" content="Filter and compare top appliance brands including Haier, LG, Samsung, Dawlance, PEL, and Orient." />
+  <meta property="og:image" content="ASSETS/IMG/logo.png" />
+  <meta property="og:url" content="product.html" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="La Imperial Products" />
+  <meta name="twitter:description" content="Compare and shop quality home appliances online in Pakistan." />
+  <meta name="twitter:image" content="ASSETS/IMG/logo.png" />
+
+  <link rel="stylesheet" href="ASSETS/CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="ASSETS/CSS/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="icon" href="ASSETS/IMG/logo.png">
+</head>
+
+<body style="background-color: rgb(230, 230, 230);">
+ <!-- navbar start -->
+    <header class="site-header">
+  <div id="navbar"></div>
+</header>
+<!-- CONTENT -->
+<div class="container product-page-container" >
+  <div class="row product-layout-row" >
+
+    <!-- FILTERS -->
+    <div class="col-12 d-md-none mt-4">
+      <button class="btn btn-primary w-100" type="button" data-bs-toggle="collapse" data-bs-target="#filterPanel" aria-expanded="false" aria-controls="filterPanel">
+        Toggle Filters
+      </button>
+    </div>
+    <div class="col-md-3 mt-4 mt-md-5 filter-sticky collapse d-md-block" id="filterPanel" data-aos="fade-right" data-aos-duration="800" data-aos-delay="100" >
+     <section> <h5 style="color: #0952c0;">Filter By Brand</h5>
+      <select id="brandFilter" class="form-select mb-3">
+        <option value="all">All Brands</option>
+        <option value="Haier">Haier</option>
+        <option value="Dawlance">Dawlance</option>
+        <option value="LG">LG</option>
+        <option value="Samsung">Samsung</option>
+        <option value="PEL">PEL</option>
+        <option value="Orient">Orient</option>
+      </select>
+
+      <h5 style="color: #0952c0;">Filter By Category</h5>
+      <select id="categoryFilter" class="form-select">
+        <option value="all">All Categories</option>
+        <option value="Washers & Dryers">Washers & Dryers</option>
+        <option value="Refrigerators">Refrigerators</option>
+        <option value="Cooling & Heating">Cooling & Heating</option>
+        <option value="Kitchen Appliances">Kitchen Appliances</option>
+        <option value="Televisions & Entertainment">Televisions & Entertainment</option>
+        <option value="Cleaning">Cleaning</option>
+      </select>
+           <button id="compareBtn" class="btn btn-primary mb-3 mt-5" disabled>
+        Compare
+      </button>
+    </div></section>
+
+    <!-- PRODUCTS -->
+       
+    <div class="col-md-9 mt-4 product-content-area"> 
+      <section>
+      <h2 style="color: #0952c0;">All Products</h2>
+      <div class="row g-3" id="productList"></div>
+
+      <!-- COMPARISON RESULT -->
+      <div class="mt-5" id="compareSection" data-aos="fade-up" data-aos-duration="800">
+        <h4 class="mb-3" data-aos="fade-down" data-aos-duration="800">Comparison Details</h4>
+        <div class="row" id="compareResult"></div>
+      </div>
+
+    </div>
+
+  </div></section>
+</div>
+ <center><a href="product.html" target="_top"> <i class="fa-solid fa-angle-up"></i></a></center>
+ <!-- FOOTER START -->
+    <div id="footer" data-aos="fade-up" >
+        
+    </div>
+
+
+</body>
+
+<script src="ASSETS/JS/products.js"></script>
+<script src="ASSETS/JS/script.js"></script>
+<script src="ASSETS/JS/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+</html>

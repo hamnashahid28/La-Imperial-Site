@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Imperial - Home Appliances Store in Pakistan | AC, Fridge, TV, Washing Machine</title>
+  <meta name="description" content="Shop premium home appliances in Pakistan at La Imperial. Explore refrigerators, inverter ACs, washing machines, LED TVs, kitchen appliances, and latest deals with fast delivery." />
+  <meta name="keywords" content="home appliances Pakistan, buy AC online Pakistan, refrigerators Pakistan, washing machines, LED TV, kitchen appliances, inverter AC, La Imperial appliances" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="La Imperial - Home Appliances Store in Pakistan" />
+  <meta property="og:description" content="Discover top appliance brands, compare products, and shop online with secure checkout and fast delivery." />
+  <meta property="og:image" content="ASSETS/IMG/logo.png" />
+  <meta property="og:url" content="index.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="La Imperial - Home Appliances Store in Pakistan" />
+  <meta name="twitter:description" content="Find top deals on refrigerators, ACs, washing machines, and more at La Imperial." />
+  <meta name="twitter:image" content="ASSETS/IMG/logo.png" />
+  <link rel="stylesheet" href="ASSETS/CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="ASSETS/CSS/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ <link rel="icon" href="ASSETS/IMG/logo.png">
+</head>
+
+<body style="background-color: rgb(230, 230, 230);">
+<header class="site-header">
+  <div id="navbar"></div>
+</header>
+<marquee class="offer-marquee py-2 fw-bold" behavior="scroll" direction="left">
+  Mega Offer: 25% OFF on selected appliances | Free Delivery on orders over PKR 50,000
+</marquee>
+
+<!-- HERO CAROUSEL START -->
+<div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <!-- Slide 1 -->
+    <div class="carousel-item active">
+      <img src="ASSETS/IMG/fridge1.jpg" class="d-block w-100" alt="Refrigerators">
+      <div class="carousel-overlay"></div>
+      <div class="carousel-caption text-start">
+        <h2 data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">Smart Refrigerators</h2>
+        <p data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">Energy Efficient & Modern Design</p>
+        <a href="product.html" class="btn btn-primary" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600">Shop Now</a>
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="carousel-item">
+      <img src="ASSETS/IMG/ac1.webp" class="d-block w-100" alt="Air Conditioners">
+      <div class="carousel-overlay"></div>
+      <div class="carousel-caption text-start">
+        <h2 data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200">Inverter Air Conditioners</h2>
+        <p data-aos="fade-left" data-aos-duration="1200" data-aos-delay="400">Powerful Cooling, Low Bills</p>
+        <a href="product.html" class="btn btn-primary" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600">View ACs</a>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="carousel-item">
+      <img src="ASSETS/IMG/washing machine.png" class="d-block w-100" alt="Washing Machines">
+      <div class="carousel-overlay"></div>
+      <div class="carousel-caption text-start">
+        <h2 data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">Smart Washing Machines</h2>
+        <p data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">Top Load & Front Load Options</p>
+        <a href="product.html" class="btn btn-primary" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600">Explore Laundry</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Carousel Arrows -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+<!-- HERO CAROUSEL END -->
+
+<div class="container my-5">
+  <h4 class="fw-bold text-center" data-aos="fade-up" data-aos-duration="1000">Explore Our Categories</h4>
+  <center>
+    <div style="border: 2px black solid; width: 120px; align-items: center; border-radius: 15px;" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000"></div>
+  </center>
+  <div class="category-wrapper mt-3">
+
+    <!-- LEFT ARROW -->
+    <button class="cat-arrow left" onclick="scrollCategories(-300)">&#10094;</button>
+
+    <!-- CATEGORY SCROLL -->
+    <div class="category-scroll" id="categoryScroll">
+      <a href="product.html?category=Kitchen%20Appliances">
+        <div class="category-card" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+          <img src="ASSETS/IMG/microwave.webp" class="category-img">
+          <h6>Kitchen Appliances</h6>
+        </div>
+      </a>
+
+      <a href="product.html?category=Washers%20%26%20Dryers">
+        <div class="category-card" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+          <img src="ASSETS/IMG/laundery.webp" class="category-img">
+          <h6>Washers & Dryers</h6>
+        </div>
+      </a>
+
+      <a href="product.html?category=Cooling%20%26%20Heating">
+        <div class="category-card" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+          <img src="ASSETS/IMG/dawlance/ac.jpeg" class="category-img">
+          <h6>Cooling & Heating</h6>
+        </div>
+      </a>
+
+      <a href="product.html?category=Cleaning">
+        <div class="category-card" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+          <img src="ASSETS/IMG/lg/vacuum.jpeg" class="category-img">
+          <h6>Cleaning Appliances</h6>
+        </div>
+      </a>
+
+      <a href="product.html?category=Refrigerators">
+        <div class="category-card" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+          <img src="ASSETS/IMG/samsung/fridge.jpeg" class="category-img">
+          <h6>Refrigerators</h6>
+        </div>
+      </a>
+      <a href="product.html?category=Televisions%20%26%20Entertainment">
+        <div class="category-card" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+          <img src="ASSETS/IMG/haier/tv.jpeg" class="category-img">
+          <h6>Televisions</h6>
+        </div>
+      </a>
+    </div>
+
+    <!-- RIGHT ARROW -->
+    <button class="cat-arrow right" onclick="scrollCategories(300)">&#10095;</button>
+  </div>
+</div>
+<!-- featured -->
+ <section class="py-5 " >
+    <div class="container ">
+        <h4 class="text-center fw-bold" style="color:#0952c0;"
+            data-aos="fade-up">
+            Featured Products
+        </h4><center><div style="border: 2px black solid; width: 120px; align-items: center; border-radius: 15px;" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000"></div></center>
+        <div class="row g-4 mt-2">
+
+            <!-- Card 1 -->
+            <div class="col-6 col-md-4 mt-4 mt-md-5 h-100" data-aos="fade-up">
+                <div class="card product-card text-center">
+                    <img src="ASSETS/IMG/samsung/WM.jpeg" class="card-img-top " alt="" height="200px">
+                    <div class="card-body">
+                        <h5 class="card-title">Washing Machine</h5>
+                        <p class="card-text">Fully Automatic, Energy Efficient</p>
+                        <button
+                          class="btn btn-primary viewdetail js-add-to-cart"
+                          data-id="9001"
+                          data-name="Washing Machine"
+                          data-price="55000"
+                          data-image="ASSETS/IMG/samsung/WM.jpeg">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-6 col-md-4 mt-4 mt-md-5" data-aos="fade-up" data-aos-delay="100">
+                <div class="card product-card text-center">
+                    <img src="ASSETS/IMG/samsung/fridge.jpeg" class="card-img-top " alt="" height="200px">
+                    <div class="card-body">
+                        <h5 class="card-title">Refrigerator</h5>
+                        <p class="card-text">Fast cooling with modern and stylish design.</p>
+                        <button
+                          class="btn btn-primary viewdetail js-add-to-cart"
+                          data-id="9002"
+                          data-name="Refrigerator"
+                          data-price="115000"
+                          data-image="ASSETS/IMG/samsung/fridge.jpeg">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-6 col-md-4 mt-4 mt-md-5" data-aos="fade-up" data-aos-delay="200">
+                <div class="card product-card text-center">
+                    <img src="ASSETS/IMG/pel/oven.webp" class="card-img-top " alt="" height="200px">
+                    <div class="card-body">
+                        <h5 class="card-title">Microwave Oven</h5>
+                        <p class="card-text">Quick and easy cooking with smart features.</p>
+                        <button
+                          class="btn btn-primary viewdetail js-add-to-cart"
+                          data-id="9003"
+                          data-name="Microwave Oven"
+                          data-price="19000"
+                          data-image="ASSETS/IMG/pel/oven.webp">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-6 col-md-4" data-aos="fade-up">
+                <div class="card product-card text-center">
+                    <img src="ASSETS/IMG/haier/ac.jpeg" class="card-img-top " alt="" height="200px">
+                    <div class="card-body">
+                        <h5 class="card-title">Air Conditioner</h5>
+                        <p class="card-text">Powerful cooling with low energy consumption.</p>
+                        <button
+                          class="btn btn-primary viewdetail js-add-to-cart"
+                          data-id="9004"
+                          data-name="Air Conditioner"
+                          data-price="145000"
+                          data-image="ASSETS/IMG/haier/ac.jpeg">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-6 col-md-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="card product-card text-center">
+                    <img src="ASSETS/IMG/lg/led.jpeg" class="card-img-top " alt="" height="200px">
+                    <div class="card-body">
+                        <h5 class="card-title">LED TV</h5>
+                        <p class="card-text">Ultra HD display with smart TV features, Wi-Fi enabled.</p>
+                        <button
+                          class="btn btn-primary viewdetail js-add-to-cart"
+                          data-id="9005"
+                          data-name="LED TV"
+                          data-price="75000"
+                          data-image="ASSETS/IMG/lg/led.jpeg">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-6 col-md-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="card product-card text-center" >
+                    <img src="ASSETS/IMG/lg/soundbar.jpg" class="card-img-top" alt=""  height="200px">
+                    <div class="card-body">
+                        <h5 class="card-title">Soundbar</h5>
+                        <p class="card-text">Experience immersive, high-quality sound with sleek design.</p>
+                        <button
+                          class="btn btn-primary viewdetail js-add-to-cart"
+                          data-id="9006"
+                          data-name="Soundbar"
+                          data-price="7000"
+                          data-image="ASSETS/IMG/lg/soundbar.jpg">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="py-5">
+  <div class="container">
+    <h4 class="text-center fw-bold" style="color:#0952c0;" data-aos="fade-up">Best Sellers & On Sale</h4>
+    <center>
+      <div style="border: 2px black solid; width: 160px; align-items: center; border-radius: 15px;" data-aos="fade-up" data-aos-delay="150"></div>
+    </center>
+    <div class="row g-4 mt-2">
+      <div class="col-6 col-md-3" data-aos="fade-up">
+        <div class="card product-card text-center h-100">
+          <span class="deal-badge best">Best Seller</span>
+          <img src="ASSETS/IMG/samsung/tv.webp" class="card-img-top" alt="Samsung Smart LED" height="200px">
+          <div class="card-body">
+            <h5 class="card-title">Samsung Smart LED</h5>
+            <p class="card-text">4K Ultra HD display with smart apps.</p>
+            <button class="btn btn-primary viewdetail js-add-to-cart" data-id="9010" data-name="Samsung Smart LED" data-price="75000" data-image="ASSETS/IMG/samsung/tv.webp">Add To Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="100">
+        <div class="card product-card text-center h-100">
+          <span class="deal-badge sale">25% OFF</span>
+          <img src="ASSETS/IMG/dawlance/ac.jpeg" class="card-img-top" alt="Dawlance Air Conditioner" height="200px">
+          <div class="card-body">
+            <h5 class="card-title">Dawlance AC</h5>
+            <p class="card-text">Inverter cooling with low power use.</p>
+            <p class="mb-2"><span class="old-price">PKR 253,333</span> <span class="sale-price">PKR 190,000</span></p>
+            <button class="btn btn-primary viewdetail js-add-to-cart" data-id="9011" data-name="Dawlance Air Conditioner" data-price="190000" data-image="ASSETS/IMG/dawlance/ac.jpeg">Add To Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="200">
+        <div class="card product-card text-center h-100">
+          <span class="deal-badge best">Best Seller</span>
+          <img src="ASSETS/IMG/haier/fridge.jpeg" class="card-img-top" alt="Haier Refrigerator" height="200px">
+          <div class="card-body">
+            <h5 class="card-title">Haier Refrigerator</h5>
+            <p class="card-text">Large capacity with inverter technology.</p>
+            <button class="btn btn-primary viewdetail js-add-to-cart" data-id="9012" data-name="Haier Refrigerator" data-price="115000" data-image="ASSETS/IMG/haier/fridge.jpeg">Add To Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="300">
+        <div class="card product-card text-center h-100">
+          <span class="deal-badge sale">25% OFF</span>
+          <img src="ASSETS/IMG/lg/oven.webp" class="card-img-top" alt="LG Microwave Oven" height="200px">
+          <div class="card-body">
+            <h5 class="card-title">LG Microwave Oven</h5>
+            <p class="card-text">Quick cooking with modern controls.</p>
+            <p class="mb-2"><span class="old-price">PKR 25,333</span> <span class="sale-price">PKR 19,000</span></p>
+            <button class="btn btn-primary viewdetail js-add-to-cart" data-id="9013" data-name="LG Microwave Oven" data-price="19000" data-image="ASSETS/IMG/lg/oven.webp">Add To Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container py-4">
+  <div class="row g-3 quick-highlights">
+    <div class="col-6 col-md-3" data-aos="fade-up">
+      <div class="highlight-card"><i class="fa-solid fa-truck-fast"></i><h6>Fast Delivery</h6><p>Same-day dispatch in major cities.</p></div>
+    </div>
+    <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="100">
+      <div class="highlight-card"><i class="fa-solid fa-shield-halved"></i><h6>Genuine Warranty</h6><p>Official products with warranty cards.</p></div>
+    </div>
+    <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="200">
+      <div class="highlight-card"><i class="fa-solid fa-headset"></i><h6>24/7 Support</h6><p>Quick help on phone and chat support.</p></div>
+    </div>
+    <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="300">
+      <div class="highlight-card"><i class="fa-solid fa-rotate-left"></i><h6>Easy Returns</h6><p>Simple return and exchange process.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="container pb-3">
+  <div class="newsletter-panel" data-aos="fade-up">
+    <div>
+      <h4 class="mb-1 text-white">Get Exclusive Deals</h4>
+      <p class="mb-0">Subscribe for launch offers, flash sales and appliance buying guides.</p>
+    </div>
+    <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Subscribed successfully!');">
+      <input type="email" class="form-control" placeholder="Enter your email" required>
+      <button class="btn btn-primary" type="submit">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+
+<!-- Brands Section -->
+<h4 class="fw-bold text-center mt-5" data-aos="fade-up" data-aos-duration="1000">
+  Top Brands We Offer
+</h4>
+<center>
+  <div style="border: 2px black solid; width: 90px; align-items: center; border-radius: 15px;"
+       data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000"></div>
+</center>
+
+<div class="brand-row mt-5">
+  <!-- Each brand wrapped in a div for AOS + hover -->
+  <div class="brand-wrapper" data-aos="fade-up" data-aos-delay="100">
+    <a href="product.html"><img src="ASSETS/IMG/Haier.png" alt="Haier"></a>
+  </div>
+  <div class="brand-wrapper" data-aos="fade-up" data-aos-delay="200">
+    <a href="product.html"><img src="ASSETS/IMG/samsung.png" alt="Samsung"></a>
+  </div>
+  <div class="brand-wrapper" data-aos="fade-up" data-aos-delay="300">
+    <a href="product.html"><img src="ASSETS/IMG/lg.png" alt="LG"></a>
+  </div>
+  <div class="brand-wrapper" data-aos="fade-up" data-aos-delay="400">
+    <a href="product.html"><img src="ASSETS/IMG/dawlance2.png" alt="Dawlance"></a>
+  </div>
+  <div class="brand-wrapper" data-aos="fade-up" data-aos-delay="500">
+   <a href="product.html"><img src="ASSETS/IMG/orient2.png" alt="Orient"></a> 
+  </div>
+  <div class="brand-wrapper" data-aos="fade-up" data-aos-delay="600">
+    <a href="product.html"><img src="ASSETS/IMG/pel.svg" alt="PEL"></a>
+  </div>
+</div>
+
+
+<!-- FOOTER START -->
+<div id="footer" data-aos="fade-up"></div>
+
+<!-- Scripts -->
+<script src="ASSETS/JS/products.js"></script>
+<script src="ASSETS/JS/script.js"></script>
+<script src="ASSETS/JS/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "La Imperial",
+  "url": "index.html",
+  "logo": "ASSETS/IMG/logo.png",
+  "sameAs": []
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "La Imperial",
+  "url": "index.html",
+  "description": "Online home appliances store in Pakistan for refrigerators, air conditioners, washing machines, TVs, and kitchen appliances."
+}
+</script>
+<script>
+  AOS.init({
+    duration: 1000,
+    easing: 'ease-in-out',
+    once: true, // animation only once
+    mirror: false
+  });
+
+  function scrollCategories(value) {
+    document.getElementById("categoryScroll").scrollLeft += value;
+  }
+</script>
+</body>
+
+</html>

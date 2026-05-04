@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "name": "Haier Washing Machine",
+    "brand": "Haier",
+    "category": "Washers & Dryers",
+    "price": 85000,
+    "image": "ASSETS/IMG/haier/wm.jpeg",
+    "features": "Fully Automatic, Energy Efficient",
+    "specs": "docs/report.docx"
+  },
+  {
+    "id": 2,
+    "name": "Haier Air Conditioner",
+    "brand": "Haier",
+    "category": "Cooling & Heating",
+    "price": 190000,
+    "image": "ASSETS/IMG/haier/ac.jpeg",
+    "features": "Inverter AC, Energy Efficient, ECO friendly",
+    "specs": "docs/report.docx"
+  },
+  {
+    "id": 3,
+    "name": "Haier Deep Freezer",
+    "brand": "Haier",
+    "category": "Refrigerators",
+    "price": 250000,
+    "image": "ASSETS/IMG/haier/deepfreezer.webp",
+    "features": "Inverter Technology, Large Capacity",
+    "specs": "docs/report.docx"
+  },
+  {
+    "id": 4,
+    "name": "Haier Dryer",
+    "brand": "Haier",
+    "category": "Washers & Dryers",
+    "price": 35000,
+    "image": "ASSETS/IMG/haier/dryer.webp",
+    "features": "Fully Automatic, Energy Efficient",
+    "specs": "ddocs/report.docx"
+  },
+  {
+    "id": 5,
+    "name": "Haier Electric Water Heater",
+    "brand": "Haier",
+    "category": "Cooling & Heating",
+    "price": 40000,
+    "image": "ASSETS/IMG/haier/electricwaterheater.avif",
+    "features": "Fully Automatic, Energy Efficient",
+    "specs": "docs/report.docx"
+  },
+  {
+    "id": 6,
+    "name": "Haier Standing Fan",
+    "brand": "Haier",
+    "category": "Cooling & Heating",
+    "price": 12000,
+    "image": "ASSETS/IMG/haier/standingfan.jpeg",
+    "features": "Inverter Technology, Large Capacity",
+    "specs": "docs/report.docx"
+  },
+  {
+    "id": 7,
+    "name": "Haier Smart LED",
+    "brand": "Haier",
+    "category": "Televisions & Entertainment",
+    "price": 65000,
+    "image": "ASSETS/IMG/haier/tv.jpeg",
+    "features": "4K Ultra HD, Smart Apps, Wi-Fi Enabled",
+    "specs": "docs/report.docx"
+  },
+  { 
+    "id": 8,
+    "name": "Haier Refrigerator",
+    "brand": "Haier",
+    "category": "Refrigerators",
+    "price": 115000,
+    "image": "ASSETS/IMG/haier/fridge.jpeg",
+    "features": "Inverter Technology, Large Capacity",
+    "specs": "docs/report.docx"
+  },
+  {
+    "id": 9,
+    "name": "Dawlance Washing Machine",
+    "brand": "Dawlance",
+    "category": "Washers & Dryers",
+    "price": 70000,
+    "image": "ASSETS/IMG/dawlance/wm.webp",
+    "features": "Fully Automatic, Energy Efficient",
+    "specs": "docs/report.docx"
+  },
+  {
+    "id": 10,
+    "name": "Dawlance Air Conditioner",
+    "brand": "Dawlance",
+    "category": "Cooling & Heating",
+    "price": 190000,
+    "image": "ASSETS/IMG/dawlance/ac.jpeg",
+    "features": "Inverter AC, Energy Efficient, ECO friendly",
+    "specs": "docs/report.docx"
+  },
+  {
+    "id": 11,
+    "name": "Dawlance Double Door Refrigerator ",
+    "brand": "Dawlance",
+    "category": "Refrigerators",
+    "price": 470000,
+    "image": "ASSETS/IMG/dawlance/multidoorfridge.webp",
+    "features": "Inverter Technology, Large Capacity",
+    "specs": "docs/report.docx"
+  },
+  {
+    "id": 12,
+    "name": "Dawlance Juicer ",
+    "brand": "Dawlance",
+    "category": "Kitchen Appliances",
+    "price": 8000,
+    "image": "ASSETS/IMG/dawlance/juicer.jpeg",
+    "features": "Fully Automatic, Energy Efficient",
+    "specs": "docs/report.docx"
+  },
+  {
+    "id": 13,
+    "name": "Dawlance Electric Kettle",
+    "brand": "Dawlance",
+    "category": "Kitchen Appliances",
+    "price": 13000,
+    "image": "ASSETS/IMG/dawlance/kettle.jpeg",
+    "features": "Fully Automatic, Energy Efficient",
+    "specs": "docs/report.docx"
+  },
+  {
+    "id": 14,
+    "name": "Dawlance Smart TV",
+    "brand": "Dawlance",
+    "category": "Televisions & Entertainment",
+    "price": 85000,
+    "image": "ASSETS/IMG/dawlance/tv.webp",
+    "features": "4K Ultra HD, Smart Apps, Wi-Fi Enabled",
+    "specs": "docs/report.docx"
+  },
+  {
+    "id": 15,
+    "name": "Dawlance Microwave",
+    "brand": "Dawlance",
+    "category": "Kitchen Appliances",
+    "price": 18000,
+    "image": "ASSETS/IMG/dawlance/microwave.webp",
+    "features": "4K Ultra HD, Smart Apps, Wi-Fi Enabled",
+    "specs": "docs/report.docx"
+  },
+  { 
+    "id": 16,
+    "name": "Dawlance Vacuum Cleaner",
+    "brand": "Dawlance",
+    "category": "Cleaning",
+    "price": 78000,
+    "image": "ASSETS/IMG/dawlance/vacuumcleaner.webp",
+    "features": "Inverter Technology, Large Capacity",
+    "specs": "docs/report.docx"
+  },
+  {
+    "id": 17,
+    "name": "LG Air Conditioner",
+    "brand": "LG",
+    "category": "Cooling & Heating",
+    "price": 225000,
+    "image": "ASSETS/IMG/lg/ac.jpeg",
+    "features": "Inverter Technology, Large Capacity",
+    "specs": "docs/report.docx"
+  },
+  {
+    "id": 18,
+    "name": "LG Dish Washer",
+    "brand": "LG",
+    "category": "Cleaning",
+    "price": 18000,
+    "image": "ASSETS/IMG/lg/dishwasher.jpeg",
+    "features": "Inverter Technology, Large Capacity",
+    "specs": "docs/report.docx"
+  },
+   {
+    "id": 19,
+    "name": "LG Smart Refrigerator",
+    "brand": "LG",
+    "category": "Refrigerators",
+    "price": 315000,
+    "image": "ASSETS/IMG/lg/fridge.jpeg",
+    "features": "Inverter Technology, Large Capacity",
+    "specs": "docs/report.docx"
+  },
+  {
+    "id": 20,
+    "name": "LG Refrigerator",
+    "brand": "LG",
+    "category": "Refrigerators",
+    "price": 98000,
+    "image": "ASSETS/IMG/lg/fridge.webp",
+    "features": "Inverter Technology, Large Capacity",
+    "specs": "docs/report.docx"
+  },
+   {
+    "id": 21,
+    "name": "LG Inverter AC",
+    "brand": "LG",
+    "category": "Cooling & Heating",
+    "price": 145000,
+    "image": "ASSETS/IMG/lg/inverterac.webp",
+    "features": "Inverter Technology, Large Capacity",
+    "specs": "docs/report.docx"
+  },
+  {
+    "id": 22,
+    "name": "LG Juicer Machine",
+    "brand": "LG",
+    "category": "Kitchen Appliances",
+    "price": 9000,
+    "image": "ASSETS/IMG/lg/juicermachine.webp",
+    "features": "Inverter Technology, Large Capacity",
+    "specs": "docs/report.docx"
+  },
+    {
+    "id": 23,
+    "name": "LG Electric Kettle",
+    "brand": "LG",
+    "category": "Kitchen Appliances",
+    "price": 7500,
+    "image": "ASSETS/IMG/lg/kettle.jpeg",
+    "features": "Inverter Technology, Large Capacity",
+    "specs": "docs/report.docx"
+  },
+    {
+    "id": 24,
+    "name": "LG Smart LED",
+    "brand": "LG",
+    "category": "Televisions & Entertainment",
+    "price": 49000,
+    "image": "ASSETS/IMG/lg/led.jpeg",
+    "features": "Inverter Technology, Large Capacity",  
+    "specs": "docs/report.docx"
+  },
+  {
+    "id": 25,
+    "name": "LG Microwave Oven",
+    "brand": "LG",
+    "category": "Kitchen Appliances",
+    "price": 19000,
+    "image": "ASSETS/IMG/lg/oven.webp",
+    "features": "Inverter Technology, Large Capacity",  
+    "specs": "docs/report.docx"
+  },
+  {
+    "id": 26,
+    "name": "LG SoundBar",
+    "brand": "LG",
+    "category": "Televisions & Entertainment",
+    "price": 7000,
+    "image": "ASSETS/IMG/lg/soundbar.jpg",
+    "features": "Inverter Technology, Large Capacity",  
+    "specs": "ddocs/report.docx"
+  },
+  {
+    "id": 27,
+    "name": "LG Vacuum Cleaner",
+    "brand": "LG",
+    "category": "Cleaning",
+    "price": 25000,
+    "image": "ASSETS/IMG/lg/vacuum.jpeg",
+    "features": "Inverter Technology, Large Capacity",  
+    "specs": "docs/report.docx"
+  },
+  {
+    "id": 28,
+    "name": "LG Washing Machine",
+    "brand": "LG",
+    "category": "Washers & Dryers",
+    "price": 65000,
+    "image": "ASSETS/IMG/lg/led.jpeg",
+    "features": "Inverter Technology, Large Capacity",  
+    "specs": "docs/report.docx"
+  },
+  {
+    "id": 29,
+    "name": "Orient Inverter Air Conditioner",
+    "brand": "Orient",
+    "category": "Cooling & Heating",
+    "price": 149000,
+    "image": "ASSETS/IMG/orient/ac.webp",
+    "features": "Inverter Technology, Large Capacity",  
+    "specs": "docs/report.docx"
+  },
+  {
+    "id": 30,
+    "name": "Orient ACDC Fan",
+    "brand": "Orient",
+    "category": "Cooling & Heating",
+    "price": 10000,
+    "image": "ASSETS/IMG/orient/acdcfan.jpeg",
+    "features": "Inverter Technology, Large Capacity",  
+    "specs": "docs/report.docx"
+  },
+   {
+    "id": 31,
+    "name": "Orient Automatic Washing Machine",
+    "brand": "Orient",
+    "category": "Washers & Dryers",
+    "price": 10000,
+    "image": "ASSETS/IMG/orient/automaticwm.webp",
+    "features": "Inverter Technology, Large Capacity",  
+    "specs": "docs/report.docx"
+  },
+  {
+    "id": 32,
+    "name": "Orient Refrigerator",
+    "brand": "Orient",
+    "category": "Refrigerators",
+    "price": 180000,
+    "image": "ASSETS/IMG/orient/fridge.webp",
+    "features": "Inverter Technology, Large Capacity",  
+    "specs": "docs/report.docx"
+  },
+  {
+    "id": 33,
+    "name": "PEL Air Conditioner",
+    "brand": "PEL",
+    "category": "Cooling & Heating",
+    "price": 175000,
+    "image": "ASSETS/IMG/pel/ac.jpeg",
+    "features": "Inverter Technology, Large Capacity",  
+    "specs": "docs/report.docx"
+  },
+   {
+    "id": 34,
+    "name": "PEL Refrigerator",
+    "brand": "PEL",
+    "category": "Cooling & Heating",
+    "price": 210000,
+    "image": "ASSETS/IMG/pel/fridge.png",
+    "features": "Inverter Technology, Large Capacity",  
+    "specs": "docs/report.docx"
+  },
+    {
+    "id": 35,
+    "name": "PEL Refrigerator",
+    "brand": "PEL",
+    "category": "Refrigerators",
+    "price": 215000,
+    "image": "ASSETS/IMG/pel/fridge.webp",
+    "features": "Inverter Technology, Large Capacity",  
+    "specs": "docs/report.docx"
+  },
+    {
+    "id": 36,
+    "name": "PEL Microwave Oven",
+    "brand": "PEL",
+    "category": "Kitchen Appliances",
+    "price": 15000,
+    "image": "ASSETS/IMG/pel/oven.webp",
+    "features": "Inverter Technology, Large Capacity",  
+    "specs": "docs/report.docx"
+  },
+    {
+    "id": 37,
+    "name": "Samsung Air Conditioner",
+    "brand": "Samsung",
+    "category": "Cooling & Heating",
+    "price": 218000,
+    "image": "ASSETS/IMG/samsung/ac.webp",
+    "features": "Inverter Technology, Large Capacity",  
+    "specs": "docs/report.docx"
+  },
+  {
+    "id": 38,
+    "name": "Samsung Smart Refrigerator",
+    "brand": "Samsung",
+    "category": "Refrigerators",
+    "price": 450000,
+    "image": "ASSETS/IMG/samsung/fridge.jpeg",
+    "features": "Inverter Technology, Large Capacity",  
+    "specs": "docs/report.docx"
+  },
+    {
+    "id": 39,
+    "name": "Samsung Microwave Oven",
+    "brand": "Samsung",
+    "category": "Kitchen Appliances",
+    "price": 20000,
+    "image": "ASSETS/IMG/samsung/oven.jpeg",
+    "features": "Inverter Technology, Large Capacity",  
+    "specs": "docs/report.docx"
+  },
+   {
+    "id": 40,
+    "name": "Samsung Smart Washing Machine",
+    "brand": "Samsung",
+    "category": "Washers & Dryers",
+    "price": 55000,
+    "image": "ASSETS/IMG/samsung/smartwm.jpeg",
+    "features": "Inverter Technology, Large Capacity",  
+    "specs": "docs/report.docx"
+  },
+   {
+    "id": 41,
+    "name": "Samsung Smart LED",
+    "brand": "Samsung",
+    "category": "Televisions & Entertainment",
+    "price": 75000,
+    "image": "ASSETS/IMG/samsung/tv.webp",
+    "features": "Inverter Technology, Large Capacity",  
+    "specs": "docs/report.docx"
+  },
+   {
+    "id": 42,
+    "name": "Samsung Washing Machine",
+    "brand": "Samsung",
+    "category": "Washers & Dryers",
+    "price": 45000,
+    "image": "ASSETS/IMG/samsung/WM.jpeg",
+    "features": "Inverter Technology, Large Capacity",  
+    "specs": "docs/report.docx"
+  }
+]

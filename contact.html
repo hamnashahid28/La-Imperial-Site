@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact La Imperial | Home Appliances Support & Inquiry</title>
+    <meta name="description" content="Contact La Imperial for product inquiries, appliance recommendations, and customer support. Visit us or send a message for fast assistance in Pakistan." />
+    <meta name="keywords" content="contact La Imperial, appliance support Pakistan, customer service home appliances, buy appliances help, appliance inquiry" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Contact La Imperial - Appliance Support" />
+    <meta property="og:description" content="Reach La Imperial for fast support, product guidance, and service information." />
+    <meta property="og:image" content="ASSETS/IMG/logo.png" />
+    <meta property="og:url" content="contact.html" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Contact La Imperial" />
+    <meta name="twitter:description" content="Get in touch with La Imperial support for home appliance queries." />
+    <meta name="twitter:image" content="ASSETS/IMG/logo.png" />
+    
+    <link rel="stylesheet" href="ASSETS/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- AOS ANIMATION -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="ASSETS/IMG/logo.png">
+    <link rel="stylesheet" href="ASSETS/CSS/style.css">
+</head>
+
+<body class="bg-light">
+
+
+    <header class="site-header">
+  <div id="navbar"></div>
+</header>
+
+    <!-- HERO -->
+    <section class="contact-hero" data-aos="fade-down">
+        <div class="container">
+            <h2 class="fw-bold">Get In Touch</h2>
+            <p class="mt-2">We’re here to help you with all your home appliance needs</p>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4">
+
+                <!-- INFO -->
+                <div class="col-md-4" data-aos="fade-right">
+                    <h4>Contact Information</h4>
+                    <h5 class="footer-title">Contact Us</h5>
+                    <p><i class="fas fa-map-marker-alt"></i> Aptech Metro Star Gate, Karachi</p>
+                    <p><i class="fas fa-phone"></i> +92 3125215289</p>
+                    <p>
+                        <i class="fas fa-envelope"></i><a
+                            href="https://mail.google.com/mail/?view=cm&to=contact@company.com&su=Subject&body=Hello"
+                            target="_blank"> laimperial@gmail.com</a>
+                    </p>
+                    <p><i class="fa-solid fa-clock"></i> Open 24/7 hours</p>
+                </div>
+
+                <!-- FORM -->
+                <div class="col-md-8" data-aos="fade-left">
+                    <h4>Send Us a Message</h4>
+
+                    <form onsubmit="return validateForm()">
+                        <div class="row">
+                            <div class="col-md-6 mb-3" data-aos="zoom-in">
+                                <input type="text" id="name" class="form-control "  placeholder="Your Name" oninput="clearError('nameError')">
+                                <small id="nameError" class="text-danger"></small>
+                            </div>
+
+                            <div class="col-md-6 mb-3" data-aos="zoom-in">
+                                <input type="email" id="email" class="form-control" placeholder="Your Email" oninput="clearError('emailError')">
+                                <small id="emailError" class="text-danger"></small>
+                            </div>
+                        </div>
+
+                        <div class="mb-3" data-aos="zoom-in">
+                            <input type="text" id="phone" class="form-control" placeholder="Phone Number" oninput="clearError('phoneError')">
+                            <small id="phoneError" class="text-danger"></small>
+                        </div>
+
+                        <div class="mb-3" data-aos="zoom-in">
+                            <input type="text" class="form-control" placeholder="Subject">
+                        </div>
+
+                        <div class="mb-3" data-aos="zoom-in">
+                            <textarea id="message" rows="4" class="form-control" placeholder="Your Message"></textarea>
+                            <small id="messageError" class="text-danger"></small>
+                        </div>
+
+                        <button class="btn btn-main px-4">Send Message</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- MAP -->
+    <div class="container px-0" id="map" data-aos="fade-up">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.313992521712!2d67.1492499746155!3d24.887269144185733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb339999415e0c3%3A0x36742eee0fd9c291!2sAptech%20Metro%20Star%20Gate!5e0!3m2!1sen!2s!4v1769833556154!5m2!1sen!2s"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    
+    <!-- FOOTER START -->
+    <div id="footer" data-aos="fade-up">
+        
+    </div>
+</body>
+<script src="ASSETS/JS/products.js"></script>
+<script src="ASSETS/JS/script.js"></script>
+<script src="ASSETS/JS/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+
+    function validateForm() {
+    let valid = true;
+
+    let name = document.getElementById("name").value.trim();
+    let email = document.getElementById("email").value.trim();
+    let phone = document.getElementById("phone").value.trim();
+    let message = document.getElementById("message").value.trim();
+
+    nameError.innerText = "";
+    emailError.innerText = "";
+    phoneError.innerText = "";
+    messageError.innerText = "";
+
+    // NAME
+    if (name === "") {
+        nameError.innerText = "Name is required";
+        valid = false;
+    } else if (name.length < 3) {
+        nameError.innerText = "Name must be at least 3 characters";
+        valid = false;
+    } else {
+        for (let i = 0; i < name.length; i++) {
+            if (
+                !(name[i] >= 'A' && name[i] <= 'Z') &&
+                !(name[i] >= 'a' && name[i] <= 'z')
+            ) {
+                nameError.innerText = "Name must contain only alphabets";
+                valid = false;
+                break;
+            }
+        }
+    }
+
+    // EMAIL (simple check)
+    if (email === "") {
+        emailError.innerText = "Email is required";
+        valid = false;
+    } else if (!email.includes("@") || !email.includes(".")) {
+        emailError.innerText = "Enter a valid email";
+        valid = false;
+    }
+
+    // PHONE
+    if (phone === "") {
+        phoneError.innerText = "Phone number is required";
+        valid = false;
+    } else if (phone.length !== 11) {
+        phoneError.innerText = "Phone number must be 11 digits";
+        valid = false;
+    } else {
+        for (let i = 0; i < phone.length; i++) {
+            if (phone[i] < '0' || phone[i] > '9') {
+                phoneError.innerText = "Phone number must contain only digits";
+                valid = false;
+                break;
+            }
+        }
+    }
+
+    // MESSAGE
+    if (message === "") {
+        messageError.innerText = "Message is required";
+        valid = false;
+    }
+
+    if (valid) {
+        alert("Thank you! Your message has been sent.");
+    }
+
+    return valid;
+
+    function clearError(errorId, inputId) {
+    document.getElementById(errorId).innerText = "";
+     document.getElementById(inputId).classList.remove("is-invalid");
+}
+
+}
+
+</script>
+
+
+</html>
